@@ -12,12 +12,5 @@
 (function() {
     'use strict';
 
-    const button = document.querySelector('.js-assigned-work-dialog-trigger');
-    button.addEventListener('click', () => {
-        const table = document.querySelector('#assigned-work-dialog');
-        for (const row of table.querySelectorAll('td')) {
-            console.log(row);
-
-        }
-    })
+    console.log('howdy')
 })();
